@@ -1,5 +1,4 @@
 import { Router } from "express";
-import subAdminRoute from "./sub_admin";
 import uploadRoute from "./upload";
 import callbacksRoute from "./callbacks";
 
