@@ -10,8 +10,6 @@ route.use("/", callbacksRoute);
 
 // Dedicated form-data upload routes
 route.use("/upload", uploadRoute);
-
-// Mount SubAdmin multi-tenancy routes
-route.use("/sub_admin", subAdminRoute);
+ 
 
 export default route;
